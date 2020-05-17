@@ -1,12 +1,13 @@
-#ghost-api for TryGhost/Ghost
+# PHP API for TryGhost/Ghost
 PHP wrapper for Ghost CMS/publishing platform API
 
 ## Ghost Content API & Ghost Admin API
-PHP wrapper matches the same signatures as the Javascript SDK  
-for GhostContentAPI and GhostAdminAPI
+PHP wrapper matches the same signatures as the Javascript SDK for GhostContentAPI and GhostAdminAPI
 
-###Setup
-Add to .env
+### Setup
+Follow Ghost directions for custom integration. https://ghost.org/integrations/custom-integrations/
+
+Add generated keys to .env
 ```.env
 GHOST_CONTENT_KEY=
 GHOST_ADMIN_KEY=
@@ -23,7 +24,7 @@ Add to Laravel config/services.php
    'version'     => env('GHOST_VERSION'),
 ],
 ```
-###How to Use
+### How to Use
 
 **GhostContentAPI:**
 ```php
