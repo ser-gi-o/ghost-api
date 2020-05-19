@@ -4,7 +4,7 @@
  * Date: 2/25/2020
  */
 
-namespace Srg\GhostApi;
+namespace GhostAPI;
 
 class ResourceContent extends Resource
 {

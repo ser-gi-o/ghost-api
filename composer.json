@@ -15,8 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Srg\\GhostAdminAPI\\": "src",
-            "Srg\\GhostContentAPI\\": "src"
+            "GhostAPI\\": "src"
         }
     },
     "minimum-stability": "dev"

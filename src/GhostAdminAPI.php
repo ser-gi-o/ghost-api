@@ -5,7 +5,7 @@
  *
  */
 
-namespace Srg\GhostApi;
+namespace GhostAPI;
 
 class GhostAdminAPI
 {
