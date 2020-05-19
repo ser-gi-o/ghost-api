@@ -13,5 +13,11 @@
             "email": "sergio@mailflagger.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Srg\\GhostAdminAPI\\": "src",
+            "Srg\\GhostContentAPI\\": "src"
+        }
+    },
     "minimum-stability": "dev"
 }

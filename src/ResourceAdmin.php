@@ -8,7 +8,7 @@ namespace Srg\GhostApi;
 
 use Firebase\JWT\JWT;
 
-class AdminResource extends Resource
+class ResourceAdmin extends Resource
 {
 
     /**

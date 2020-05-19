@@ -6,7 +6,7 @@
 
 namespace Srg\GhostApi;
 
-class ContentResource extends Resource
+class ResourceContent extends Resource
 {
     /**
      * Resource constructor.

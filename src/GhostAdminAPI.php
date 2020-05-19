@@ -18,14 +18,14 @@ class GhostAdminAPI
     public function __construct(array $config)
     {
         //admin resources
-        $this->posts = new AdminResource($config, 'posts');
-        $this->pages = new AdminResource($config, 'pages');
-        $this->tags = new AdminResource($config, 'tags');
-        $this->users = new AdminResource($config, 'users');
-        $this->images = new AdminResource($config, 'images');
-        $this->themes = new AdminResource($config, 'themes');
-        $this->site = new AdminResource($config, 'site');
-        $this->webhooks = new AdminResource($config, 'webhooks');
+        $this->posts = new ResourceAdmin($config, 'posts');
+        $this->pages = new ResourceAdmin($config, 'pages');
+        $this->tags = new ResourceAdmin($config, 'tags');
+        $this->users = new ResourceAdmin($config, 'users');
+        $this->images = new ResourceAdmin($config, 'images');
+        $this->themes = new ResourceAdmin($config, 'themes');
+        $this->site = new ResourceAdmin($config, 'site');
+        $this->webhooks = new ResourceAdmin($config, 'webhooks');
     }
 
     /**

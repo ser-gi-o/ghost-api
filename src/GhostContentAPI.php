@@ -18,11 +18,11 @@ class GhostContentAPI
     public function __construct(array $config)
     {
         //content resources
-        $this->authors = new ContentResource($config, 'authors');
-        $this->posts = new ContentResource($config, 'posts');
-        $this->pages = new ContentResource($config, 'pages');
-        $this->tags = new ContentResource($config, 'tags');
-        $this->settings = new ContentResource($config, 'settings');
+        $this->authors = new ResourceContent($config, 'authors');
+        $this->posts = new ResourceContent($config, 'posts');
+        $this->pages = new ResourceContent($config, 'pages');
+        $this->tags = new ResourceContent($config, 'tags');
+        $this->settings = new ResourceContent($config, 'settings');
     }
 
     /**
