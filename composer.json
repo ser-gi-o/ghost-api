@@ -3,8 +3,8 @@
     "description": "PHP wrapper for Ghost CMS/publishing platform API",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "^6.5",
-        "firebase/php-jwt": "^5.2"
+        "guzzlehttp/guzzle": "^7.2",
+        "firebase/php-jwt": "^5.4"
     },
     "license": "MIT",
     "authors": [
